@@ -1,11 +1,12 @@
 {
-    "name": "dirty-laundry/fredfredandfreddy",
+    "name": "dirty-laundry/fred-fred-and-freddy",
     "type": "project",
     "license": "GNU",
     "require": {
         "php": "^7.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "heroyt/tournament-generator": "^0.3.0",
         "symfony/console": "5.0.*",
         "symfony/dotenv": "5.0.*",
         "symfony/flex": "^1.3.1",

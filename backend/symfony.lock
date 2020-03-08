@@ -1,4 +1,7 @@
 {
+    "heroyt/tournament-generator": {
+        "version": "v0.3"
+    },
     "php": {
         "version": "7.4"
     },

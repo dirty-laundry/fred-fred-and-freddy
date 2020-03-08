@@ -4,8 +4,61 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f769bc9dabc952a9e9210886c4900c8",
+    "content-hash": "1393ba50af5a967617dee117056b97a5",
     "packages": [
+        {
+            "name": "heroyt/tournament-generator",
+            "version": "v0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Heroyt/tournament-generator.git",
+                "reference": "731496754a5591596fc221d35e4949de37a435dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Heroyt/tournament-generator/zipball/731496754a5591596fc221d35e4949de37a435dc",
+                "reference": "731496754a5591596fc221d35e4949de37a435dc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/TournamentGenerator/functions.php"
+                ],
+                "psr-4": {
+                    "TournamentGenerator\\": "src/TournamentGenerator/",
+                    "TournamentGenerator\\Preset\\": "src/TournamentGenerator/Preset/",
+                    "TournamentGenerator\\Utilis\\": "src/TournamentGenerator/Utilis/",
+                    "TournamentGenerator\\Utilis\\Sorter\\": "src/TournamentGenerator/Utilis/Sorter/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tomáš Vojík",
+                    "email": "vojik@wboy.cz"
+                }
+            ],
+            "description": "A set of classes used to create multiple kinds of tournament brackets in PHP.",
+            "keywords": [
+                "Teams",
+                "bracket",
+                "generator",
+                "scheduler",
+                "tournament",
+                "tournaments"
+            ],
+            "time": "2019-08-30T09:04:14+00:00"
+        },
         {
             "name": "psr/cache",
             "version": "1.0.1",
@@ -1790,7 +1843,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.2.5",
+        "php": "^7.4",
         "ext-ctype": "*",
         "ext-iconv": "*"
     },
